@@ -2,6 +2,7 @@
 
 import { AnimatePresence } from "framer-motion"
 import NavBar from "./navBar"
+import Footer from "./footer"
 import { motion } from "framer-motion"
 import { usePathname } from "next/navigation"
 
@@ -12,7 +13,7 @@ const TransitionProvider = ({children}) => {
     return (
  
 <AnimatePresence mode="wait">
-<div key={pathName} className="w-screen h-screen bg-gradient-to-b from-blue-100 to-purple-300">
+<div key={pathName} className="bg-gradient-to-b from-yellow-500 to-yellow-400">
     <motion.div className="h-screen w-screen fixed bg-black rounded-b-[100px] z-40"
     animate={{height:"0vh"}}
     exit={{height:"140vh"}}
@@ -35,7 +36,10 @@ const TransitionProvider = ({children}) => {
       <div className="h-24">
         <NavBar />
         </div>
-        <div className="h-[calc(100vh-6rem)]">{children}</div>
+        <div className="h-full">{children}</div>
+        <div className="">
+          <Footer />
+        </div>
         </div>
 </AnimatePresence>
 
