@@ -83,13 +83,13 @@ const listItemVariants = {
     <button className="w-10 h-8 flex flex-col justify-between z-50 relative" onClick={()=>setOpen(!open)}>
         <motion.div variants={topVariants}
         animate={open ? "opened" : "closed"}
-        className="w-10 h-1 bg-black rounded origin-left"></motion.div>
+        className="w-10 h-1 bg-white rounded origin-left"></motion.div>
         <motion.div variants={centerVariants}
         animate={open ? "opened" : "closed"}
-        className="w-10 h-1 bg-black rounded"></motion.div>
+        className="w-10 h-1 bg-white rounded"></motion.div>
         <motion.div variants={bottomVariants}
         animate={open ? "opened" : "closed"}
-        className="w-10 h-1 bg-black rounded origin-left"></motion.div>
+        className="w-10 h-1 bg-white rounded origin-left"></motion.div>
     </button>
     {/* MENU LIST */}
     { open && (

@@ -1,12 +1,15 @@
 import Link from "next/link"
+import Image from "next/image";
 
 const GalleryPage = () => {
  return (
-    <div className="h-screen flex">
+    <div className="lg:h-screen xl:h-screen flex flex-col lg:flex-row xl:flex-row">
     {/* FIRST SECTION */}
-    <div className="h-full w-1/2 flex">
-        <div className="h-[80%] w-[80%] rounded-xl m-auto bg-white">
-            <div className="text-5xl text-center font-bold pt-5">
+    <div className="h-full w-full pt-8 pb-10 lg:w-1/2 xl:w-1/2 flex bg-red-500">
+        <div className="flex h-[28rem] sm:h-[33rem] md:h-[33rem] lg:h-[33rem] xl:h-[33rem] w-[20rem] sm:w-[27rem] md:w-[27rem] lg:w-[27rem] xl:w-[27rem] justify-center rounded-xl m-auto bg-white">
+            {/* IMAGE */}
+                <Image src="/example.jpg" alt="BackgroundImage" width={550} height={600} priority className="rounded-xl"/>
+            <div className="text-2xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-5xl text-white font-bold pt-5 absolute">
         <Link href="/events">
             Eventos
         </Link>
@@ -14,16 +17,20 @@ const GalleryPage = () => {
         </div>
     </div>
     {/* SECOND SECTION */}
-    <div className="h-full w-1/2 pt-10 pb-9 pl-5 pr-5 space-y-11">
-        <div className="h-[45%] w-[85%] bg-pink-500 rounded-xl m-auto">
-        <div className="text-5xl text-center font-bold pt-5">
+    <div className="h-full w-full lg:w-1/2 xl:w-1/2 pt-8 pb-9 bg-blue-500 space-y-11">
+        <div className="flex h-[10rem] sm:h-[15rem] md:h-[15rem] lg:h-[15rem] xl:h-[15rem] w-[20rem] sm:w-[27rem] md:w-[27rem] lg:w-[27rem] xl:w-[27rem] justify-center rounded-xl m-auto">
+            {/* IMAGE */}
+            <Image src="/example.jpg" alt="BackgroundImage" width={600} height={600} priority className="rounded-xl"/>
+        <div className="text-2xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-5xl text-white text-center font-bold pt-5 absolute">
         <Link href="/cosplay">
             Cosplay
         </Link>
         </div>
         </div>
-        <div className="h-[45%] w-[85%] bg-violet-400 rounded-xl m-auto">
-        <div className="text-5xl text-center font-bold pt-5">
+        <div className="flex h-[10rem] sm:h-[15rem] md:h-[15rem] lg:h-[15rem] xl:h-[15rem] w-[20rem] sm:w-[27rem] md:w-[27rem] lg:w-[27rem] xl:w-[27rem] justify-center rounded-xl m-auto">
+            {/* IMAGE */}
+            <Image src="/example.jpg" alt="BackgroundImage" width={600} height={600} priority className="rounded-xl"/>
+        <div className="text-2xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-5xl text-white text-center font-bold pt-5 absolute">
         <Link href="/casual">
             Casual
         </Link>
