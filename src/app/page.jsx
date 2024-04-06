@@ -33,22 +33,20 @@ const Homepage = () => {
     <Image src="/purpleYellow.gif" alt="line" width={70} height={30} priority className="w-full h-[30px]" />
     </div>
       {/* BANNER */}
-      <div className="h-[25rem] flex">
-            <div className="flex flex-shrink rounded-xl pl-10 pr-10 h-[21rem] w-[60rem] m-auto justify-center">
-              {/* IMAGE */}
-              <div className="flex">
-                <Image src="/example.jpg" alt="BackgroundImage" width={1000} height={400} priority className="rounded-xl"/>
-                </div>
-              {/* TEXT */}
-              <div className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-5xl font-bold text-white absolute flex h-[21rem] items-center">
-              <Link href="/gallery">Galería de fotos</Link>
-              </div>
-            </div>
-          </div>
+      <div className="flex items-center justify-center p-5">
+        <div className="flex h-[15rem] sm:h-[18rem] md:h-[25rem] lg:h-[30rem] w-[25rem] sm:w-[35rem] md:w-[55rem] lg:w-[70rem] rounded-xl hover:scale-105 hover:shadow-xl transition-all items-center justify-center">
+        <Image src="/example.jpg" alt="BackgroundImage" width={800} height={300} priority className="rounded-xl object-cover h-full w-full"/>
+          <div className="text-2xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-5xl text-white font-bold pt-5 absolute">
+      <Link href="/gallery">
+          Galería de fotos
+      </Link>
+      </div>
+      </div>
+  </div>
           {/* SECTIONS */}
-      <div className="flex flex-wrap xl:justify-between justify-center gap-7 h-full pt-10 pb-[5%] pl-5 pr-5 xl:pl-[5%] xl:pr-[5%]">
+      <div className="flex flex-wrap xl:justify-between justify-center gap-7 h-full pt-2 md:pt-10 pb-[5%] pl-5 pr-5 xl:pl-[5%] xl:pr-[5%]">
               {/* CONTAINER 1 */}
-              <div className="h-[30rem] w-[22rem] bg-violet-950 rounded-xl">
+              <div className="h-[30rem] w-[22rem] bg-violet-950 hover:scale-105 hover:shadow-xl transition-all rounded-xl">
                 {/* TEXT */}
                 <div className="h-1/3 text-white pt-6 pl-6 pr-6 pb-6 text-center">
                   <div className="text-5xl font-bold pb-3">
@@ -62,7 +60,7 @@ const Homepage = () => {
                 </div>
               </div>
               {/* CONTAINER 2*/}
-              <div className="h-[30rem] w-[22rem] bg-violet-950 rounded-xl">
+              <div className="h-[30rem] w-[22rem] bg-violet-950 hover:scale-105 hover:shadow-xl transition-all rounded-xl">
                 {/* TEXT */}
                 <div className="h-1/3 text-white pt-6 pl-6 pr-6 pb-6 text-center">
                   <div className="text-5xl font-bold pb-3">
@@ -76,7 +74,7 @@ const Homepage = () => {
                 </div>
               </div>  
               {/* CONTAINER 3 */}
-              <div className="h-[30rem] w-[22rem] bg-violet-950 rounded-xl">
+              <div className="h-[30rem] w-[22rem] bg-violet-950 hover:scale-105 hover:shadow-xl transition-all rounded-xl">
                 {/* TEXT */}
                 <div className="h-1/3 text-white pt-6 pl-6 pr-6 pb-6 text-center">
                   <div className="text-5xl font-bold pb-3">
