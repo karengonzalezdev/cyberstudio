@@ -5,7 +5,7 @@ const BlogPage = () => {
  <div className="h-full">
     {/* TEXT CONTAINER */}
     <div className="h-[7rem]">
-        <h1 className="text-5xl text-center pt-7 font-bold">Blog</h1>
+        <h1 className="text-5xl text-center pt-7 font-bold text-glitch text-glitch-duration-slow">Blog</h1>
     </div>
     {/* SECTIONS */}
     <div className="h-full flex flex-col pt-7 pl-7 pr-7 pb-[7%] gap-10 items-center justify-center">

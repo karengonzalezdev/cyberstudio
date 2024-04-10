@@ -9,7 +9,7 @@ const CasualPage
 <div className="bg-gradient-to-b from-yellow-500 to-yellow-400">
     {/* TEXT CONTAINER */}
     <div className="h-[7rem]">
-        <h1 className="text-5xl text-center pt-7 font-bold">Casual</h1>
+        <h1 className="text-5xl text-center pt-7 font-bold text-glitch text-glitch-duration-slow">Casual</h1>
     </div>
     {/* SERVICES CONTAINER */}
     <div className="h-full flex flex-wrap items-center justify-center pl-5 pt-5 pr-5 pb-[7%] gap-10">

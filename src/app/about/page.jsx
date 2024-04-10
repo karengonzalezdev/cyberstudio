@@ -13,7 +13,7 @@ const AboutPage = () => {
         </div>
         {/* TEXT */}
         <div className="h-full w-full md:w-1/2 flex flex-col text-center pl-2 pr-2">
-            <h1 className="text-xl sm:text-3xl lg:text-5xl font-bold pt-2 sm:pt-5 md:pt-0 pb-2 sm:pb-5 lg:pb-10">Acerca de nosotros</h1>
+            <h1 className="text-xl sm:text-3xl lg:text-5xl font-bold pt-2 sm:pt-5 md:pt-0 pb-2 sm:pb-5 lg:pb-10 text-glitch text-glitch-duration-slow">Acerca de nosotros</h1>
             <p className="text-md md:text-2xl lg:text-3xl">Somos un estudio fotográfico fundado en 2018, con el objetivo de entregar fotos de gran calidad. Nos especializamos en fotografía de eventos, casuales y de Cosplay, pero nuestro alcance no se limita a esto, pregunta por el tipo de foto que gustes. Contáctanos para mas información 😊</p>
         </div>
     </div>

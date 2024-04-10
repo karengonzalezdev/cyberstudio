@@ -25,7 +25,7 @@ const Footer = () => {
 </div>
 {/* TEXT */}
 <div className="pt-7 text-white text-center">
-<h1 className="text-3xl">Cyberstudio</h1>
+<h1 className="text-3xl text-glitch text-glitch-duration-slow">Cyberstudio</h1>
 <p>Copyright Cyberstudio GDL MX</p>
 </div>
 

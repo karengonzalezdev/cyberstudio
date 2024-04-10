@@ -12,7 +12,14 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      duration: {
+        fast: "1s",
+        normal: "3s",
+        slow: "7s",
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require("@designbycode/tailwindcss-text-glitch"),
+  ],
 };
