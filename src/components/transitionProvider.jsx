@@ -17,15 +17,15 @@ const TransitionProvider = ({children}) => {
 
         <motion.div
           initial={{opacity:1}}
-          animate={{x:"100%"}}
-          transition={{duration:0.8, ease:"easeOut"}}
+          animate={{x:"-100%"}}
+          transition={{duration:1, ease:"easeOut"}}
           style={{
             position: "absolute",
             top: 0,
             left: 0,
             width: "100%",
-            height: "100%",
-            background: "linear-gradient(to right, #000000, #ffffff)",
+            height: "200%",
+            background: "linear-gradient(to left, #000000, #ffffff)",
             mixBlendMode: "difference",
           }}
         />
