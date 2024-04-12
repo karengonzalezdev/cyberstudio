@@ -7,7 +7,7 @@ const ContactPage = () => {
 
 const [success,setSuccess] = useState(false);
 const [error,setError] = useState(false);
-const text = "Hello there! ";
+const text = "Hola! ";
 
 const form = useRef();
 
