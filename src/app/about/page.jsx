@@ -8,7 +8,7 @@ const AboutPage = () => {
         {/* IMAGE */}
         <div className="h-full w-full md:w-1/2 flex">
             <div className="flex h-[12rem] sm:h-[18rem] md:h-[26rem] lg:h-[28rem] w-[13rem] sm:w-[19rem] md:w-[28rem] lg:w-[30rem] rounded-xl m-auto">
-            <Image src="/example.jpg" alt="BackgroundImage" width={600} height={400} priority className="rounded-xl"/>
+            <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/bladerunner.jpg" alt="Background" className="object-contain w-auto h-full mx-auto" width={300} height={300} responsive="true"/>
             </div>
         </div>
         {/* TEXT */}
@@ -21,7 +21,7 @@ const AboutPage = () => {
     {/* BANNER */}
     <div className="flex items-center justify-center">
         <div className="flex h-[15rem] sm:h-[18rem] md:h-[30rem] w-[25rem] sm:w-[35rem] md:w-[70rem] pt-10 pb-10 pl-5 pr-5 rounded-xl">
-        <Image src="/example.jpg" alt="BackgroundImage" width={1200} height={500} priority className="rounded-xl"/>
+        <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/cosplay.jpg" alt="Background" className="object-contain w-auto h-full mx-auto" width={300} height={300} responsive="true"/>
         </div>
     </div>
  </div>

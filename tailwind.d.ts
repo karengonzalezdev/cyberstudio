@@ -1,0 +1,1 @@
+declare module '@designbycode/tailwindcss-text-glitch';

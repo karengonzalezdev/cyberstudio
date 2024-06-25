@@ -20,8 +20,8 @@ const Footer = () => {
 </div>
 {/* LINE */}
 <div className="flex w-full justify-between">
-<div className="w-[35rem] h-1 bg-yellow-500"></div>
-<div className="w-[35rem] h-1 bg-yellow-500"></div>
+<div className="w-[5rem] sm:w-[10rem] md:w-[15rem] lg:w-[20rem] xl:w-[28rem] h-1 bg-yellow-500"></div>
+<div className="w-[5rem] sm:w-[10rem] md:w-[15rem] lg:w-[20rem] xl:w-[28rem] h-1 bg-yellow-500"></div>
 </div>
 {/* TEXT */}
 <div className="pt-7 text-white text-center">

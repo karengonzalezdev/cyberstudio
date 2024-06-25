@@ -43,7 +43,7 @@ const sendEmail = (e) => {
       {/* FORM CONTAINER */}
       <form
           onSubmit={sendEmail} 
-          ref={form} className="h-[80%] lg:h-full md:w-1/2 lg:w-1/2 bg-purple-50 text-black rounded-xl text-lg lg:text-xl xl:text-xl flex flex-col gap-8 justify-center px-10 sm:px-12 md:px-15 pt-10 md:pt-15 lg:px-20 lg:pt-10 pb-20 md:pb-34">
+          ref={form} className="h-[80%] lg:h-full md:w-1/2 lg:w-1/2 bg-purple-50 text-black text-lg lg:text-xl xl:text-xl flex flex-col gap-8 justify-center px-10 sm:px-12 md:px-15 pt-10 md:pt-15 lg:px-20 lg:pt-10 pb-20 md:pb-34">
           <span className="pt-5 lg:pt-2">Equipo de Cyberstudio,</span>
           <textarea rows={4} className="bg-transparent border-b-2 border-b-black outline-none resize-none min-h-[2rem]"
           name="user_message"
@@ -51,7 +51,7 @@ const sendEmail = (e) => {
           <span>Mi correo electrónico es:</span>
           <input name="user_email" type="text" className="bg-transparent border-b-2 border-b-black outline-none" />
           <span>Saludos!</span>
-          <button className="bg-purple-200 rounded font-semibold text-gray-600 lg:p-4 xl:p-4">Enviar</button>
+          <button className="bg-purple-200 font-semibold text-gray-600 lg:p-4 xl:p-4">Enviar</button>
           {success && <span className="text-green-600 font-semibold">Tu mensaje fue enviado correctamente!</span>}
           {error && <span className="text-red-600 font-semibold">Hubo un error al enviar tu mensaje, porfavor intenta nuevamente</span>}
       </form>

@@ -13,40 +13,32 @@ const cosplayPage = () => {
     {/* SERVICES CONTAINER */}
     <div className="h-full flex flex-wrap items-center justify-center pl-5 pt-5 pr-5 pb-[7%] gap-10">
         {/* CARD 1 */}
-        <div className="flex h-[20rem] w-[20rem] rounded-xl bg-green-400">
-        <Image src="/example.jpg" alt="BackgroundImage" width={400} height={600} priority className="rounded-xl"/>
+        <div className="flex h-[40rem] w-[27rem]">
+        <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/cosplay2.jpg" alt="Background" className="object-contain w-auto h-full mx-auto" width={300} height={300} responsive="true"/>
         </div>
         {/* CARD 2 */}
-        <div className="flex h-[20rem] w-[20rem] rounded-xl bg-green-400">
-        <Image src="/example.jpg" alt="BackgroundImage" width={400} height={600} priority className="rounded-xl"/>
+        <div className="flex h-[26rem] w-[35rem]">
+        <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/bladerunner.jpg" alt="Background" className="object-contain w-auto h-full mx-auto" width={300} height={300} responsive="true"/>
         </div>
         {/* CARD 3 */}
-        <div className="flex h-[20rem] w-[20rem] rounded-xl bg-green-400">
-        <Image src="/example.jpg" alt="BackgroundImage" width={400} height={600} priority className="rounded-xl"/>
+        <div className="flex h-[40rem] w-[27rem]">
+        <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/cazador.jpg" alt="Background" className="object-contain w-auto h-full mx-auto" width={300} height={300} responsive="true"/>
         </div>
         {/* CARD 4 */}
-        <div className="flex h-[20rem] w-[20rem] rounded-xl bg-green-400">
-        <Image src="/example.jpg" alt="BackgroundImage" width={400} height={600} priority className="rounded-xl"/>
+        <div className="flex h-[45rem] w-[21rem]">
+        <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/joi.jpg" alt="Background" className="object-contain w-auto h-full mx-auto" width={300} height={300} responsive="true"/>
         </div>
         {/* CARD 5 */}
-        <div className="flex h-[20rem] w-[20rem] rounded-xl bg-green-400">
-        <Image src="/example.jpg" alt="BackgroundImage" width={400} height={600} priority className="rounded-xl"/>
+        <div className="flex h-[20rem] w-[35rem]">
+        <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/cosplay.jpg" alt="Background" className="object-contain w-auto h-full mx-auto" width={300} height={300} responsive="true"/>
         </div>
         {/* CARD 6 */}
-        <div className="flex h-[20rem] w-[20rem] rounded-xl bg-green-400">
-        <Image src="/example.jpg" alt="BackgroundImage" width={400} height={600} priority className="rounded-xl"/>
+        <div className="flex h-[40rem] w-[26rem]">
+        <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/cosplay3.jpg" alt="Background" className="object-contain w-auto h-full mx-auto" width={300} height={300} responsive="true"/>
         </div>
         {/* CARD 7 */}
-        <div className="flex h-[20rem] w-[20rem] rounded-xl bg-green-400">
-        <Image src="/example.jpg" alt="BackgroundImage" width={400} height={600} priority className="rounded-xl"/>
-        </div>
-        {/* CARD 8 */}
-        <div className="flex h-[20rem] w-[20rem] rounded-xl bg-green-400">
-        <Image src="/example.jpg" alt="BackgroundImage" width={400} height={600} priority className="rounded-xl"/>
-        </div>
-        {/* CARD 9 */}
-        <div className="flex h-[20rem] w-[20rem] rounded-xl bg-green-400">
-        <Image src="/example.jpg" alt="BackgroundImage" width={400} height={600} priority className="rounded-xl"/>
+        <div className="flex h-[26rem] w-[50rem]">
+        <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/agentek.jpg" alt="Background" className="object-contain w-auto h-full mx-auto" width={300} height={300} responsive="true"/>
         </div>
     </div>
     <ScrollButton />

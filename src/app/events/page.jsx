@@ -13,40 +13,24 @@ const eventsPage = () => {
     {/* SERVICES CONTAINER */}
     <div className="h-full flex flex-wrap items-center justify-center pl-5 pt-5 pr-5 pb-[7%] gap-10">
         {/* CARD 1 */}
-        <div className="flex h-[20rem] w-[20rem] rounded-xl bg-green-400">
-        <Image src="/example.jpg" alt="BackgroundImage" width={400} height={600} priority className="rounded-xl"/>
+        <div className="flex h-[40rem] w-[27rem]">
+        <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/quinceanera.jpg" alt="Background" className="object-contain w-auto h-full mx-auto" width={300} height={300} responsive="true"/>
         </div>
         {/* CARD 2 */}
-        <div className="flex h-[20rem] w-[20rem] rounded-xl bg-green-400">
-        <Image src="/example.jpg" alt="BackgroundImage" width={400} height={600} priority className="rounded-xl"/>
+        <div className="flex h-[40rem] w-[27rem]">
+        <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/iglesia.jpg" alt="Background" className="object-contain w-auto h-full mx-auto" width={300} height={300} responsive="true"/>
         </div>
         {/* CARD 3 */}
-        <div className="flex h-[20rem] w-[20rem] rounded-xl bg-green-400">
-        <Image src="/example.jpg" alt="BackgroundImage" width={400} height={600} priority className="rounded-xl"/>
+        <div className="flex h-[40rem] w-[27rem]">
+        <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/fiesta.jpg" alt="Background" className="object-contain w-auto h-full mx-auto" width={300} height={300} responsive="true"/>
         </div>
         {/* CARD 4 */}
-        <div className="flex h-[20rem] w-[20rem] rounded-xl bg-green-400">
-        <Image src="/example.jpg" alt="BackgroundImage" width={400} height={600} priority className="rounded-xl"/>
+        <div className="flex h-[40rem] w-[27rem]">
+        <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/evento.jpg" alt="Background" className="object-contain w-auto h-full mx-auto" width={300} height={300} responsive="true"/>
         </div>
         {/* CARD 5 */}
-        <div className="flex h-[20rem] w-[20rem] rounded-xl bg-green-400">
-        <Image src="/example.jpg" alt="BackgroundImage" width={400} height={600} priority className="rounded-xl"/>
-        </div>
-        {/* CARD 6 */}
-        <div className="flex h-[20rem] w-[20rem] rounded-xl bg-green-400">
-        <Image src="/example.jpg" alt="BackgroundImage" width={400} height={600} priority className="rounded-xl"/>
-        </div>
-        {/* CARD 7 */}
-        <div className="flex h-[20rem] w-[20rem] rounded-xl bg-green-400">
-        <Image src="/example.jpg" alt="BackgroundImage" width={400} height={600} priority className="rounded-xl"/>
-        </div>
-        {/* CARD 8 */}
-        <div className="flex h-[20rem] w-[20rem] rounded-xl bg-green-400">
-        <Image src="/example.jpg" alt="BackgroundImage" width={400} height={600} priority className="rounded-xl"/>
-        </div>
-        {/* CARD 9 */}
-        <div className="flex h-[20rem] w-[20rem] rounded-xl bg-green-400">
-        <Image src="/example.jpg" alt="BackgroundImage" width={400} height={600} priority className="rounded-xl"/>
+        <div className="flex h-[27rem] w-[40rem]">
+        <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/familia.jpg" alt="Background" className="object-contain w-auto h-full mx-auto" width={300} height={300} responsive="true"/>
         </div>
     </div>
     <ScrollButton />
