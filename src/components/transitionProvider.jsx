@@ -4,21 +4,20 @@ import { AnimatePresence } from "framer-motion"
 import { motion } from "framer-motion"
 import NavBar from "./navBar"
 import Footer from "./footer"
+import '../app/glitch.css';
 import { usePathname } from "next/navigation"
 
-const TransitionProvider = ({children}) => {
+const TransitionProvider = ({ children }) => {
 
   const pathName = usePathname()
 
-    return (
- 
-<AnimatePresence mode="wait">
-<div key={pathName} className="bg-gradient-to-b from-yellow-500 to-yellow-400"> 
-
+  return (
+    <AnimatePresence mode="wait">
+      <div key={pathName} className="bg-gradient-to-b from-yellow-500 to-yellow-400">
         <motion.div
-          initial={{opacity:1}}
-          animate={{x:"-100%"}}
-          transition={{duration:1, ease:"easeOut"}}
+          initial={{ opacity: 1 }}
+          animate={{ x: "-100%" }}
+          transition={{ duration: 1, ease: "easeOut" }}
           style={{
             position: "absolute",
             top: 0,
@@ -30,17 +29,15 @@ const TransitionProvider = ({children}) => {
           }}
         />
         <div className="h-24">
-        <NavBar />
+          <NavBar />
         </div>
-        <div className="">{children}</div>
-        <div className="">
+        <div>{children}</div>
+        <div>
           <Footer />
         </div>
-        </div>
-        
-</AnimatePresence>
-
-)
+      </div>
+    </AnimatePresence>
+  )
 }
 
 export default TransitionProvider

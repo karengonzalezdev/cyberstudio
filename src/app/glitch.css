@@ -11,24 +11,22 @@
       0.025em 0.04em 0 #fffc00;
     animation: glitch 725ms infinite;
   }
-  /* Media query para pantallas pequeñas */
+
 @media screen and (max-width: 600px) {
     .glitch {
-      font-size: 2rem; /* Tamaño de texto más pequeño para pantallas pequeñas */
+      font-size: 3rem;
     }
   }
   
-  /* Media query para pantallas medianas */
   @media screen and (min-width: 601px) and (max-width: 1024px) {
     .glitch {
-      font-size: 3rem; /* Tamaño de texto mediano para pantallas medianas */
+      font-size: 4rem;
     }
   }
-  
-  /* Media query para pantallas grandes */
+
   @media screen and (min-width: 1025px) {
     .glitch {
-      font-size: 5rem; /* Tamaño de texto más grande para pantallas grandes */
+      font-size: 5rem;
     }
   }
   
