@@ -47,7 +47,7 @@ const Homepage = () => {
       {/* SECTIONS */}
       <div className="h-full flex flex-wrap justify-center xl:justify-between gap-7 pt-2 md:pt-10 pb-[5%] px-5 xl:px-[65px]">
         {/* CONTAINER 1 */}
-        <div className="h-[35rem] w-[20rem] bg-violet-950 hover:scale-105 hover:shadow-xl transition-all">
+        <div className="h-[35rem] w-[20rem] bg-violet-950 hover:scale-105 transition-all shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#66f,0_0_15px_#66f,0_0_30px_#66f] hover:shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#66f,0_0_15px_#66f,0_0_30px_#66f]">
           {/* TEXT */}
           <div className="h-1/4 text-white text-center pt-6 pl-6 pr-6 pb-6">
             <div className="text-4xl font-bold pb-3">
@@ -61,7 +61,7 @@ const Homepage = () => {
           </div>
         </div>
         {/* CONTAINER 2*/}
-        <div className="h-[35rem] w-[20rem] bg-violet-950 hover:scale-105 hover:shadow-xl transition-all">
+        <div className="h-[35rem] w-[20rem] bg-violet-950 hover:scale-105 transition-all shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#66f,0_0_15px_#66f,0_0_30px_#66f] hover:shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#66f,0_0_15px_#66f,0_0_30px_#66f]">
           {/* TEXT */}
           <div className="h-1/4 text-white text-center pt-6 pl-6 pr-6 pb-6">
             <div className="text-4xl font-bold pb-3">
@@ -75,7 +75,7 @@ const Homepage = () => {
           </div>
         </div>
         {/* CONTAINER 3 */}
-        <div className="h-[35rem] w-[20rem] bg-violet-950 hover:scale-105 hover:shadow-xl transition-all">
+        <div className="h-[35rem] w-[20rem] bg-violet-950 hover:scale-105 transition-all shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#66f,0_0_15px_#66f,0_0_30px_#66f] hover:shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#66f,0_0_15px_#66f,0_0_30px_#66f]">
           {/* TEXT */}
           <div className="h-1/4 text-white text-center pt-6 pl-6 pr-6 pb-6">
             <div className="text-4xl font-bold pb-3">

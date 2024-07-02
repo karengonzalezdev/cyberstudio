@@ -13,7 +13,7 @@ const TransitionProvider = ({ children }) => {
 
   return (
     <AnimatePresence mode="wait">
-      <div key={pathName} className="bg-gradient-to-b from-yellow-500 to-yellow-400">
+      <div key={pathName} className="bg-gradient-to-b from-yellow-500 to-yellow-300 font-mono">
         <motion.div
           initial={{ opacity: 1 }}
           animate={{ x: "-100%" }}
