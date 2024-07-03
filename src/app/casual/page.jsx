@@ -2,20 +2,21 @@
 
 import ScrollButton from "@/components/scrollButton"
 import Image from "next/image";
+import { FaAngleDoubleDown } from "react-icons/fa";
 
 const CasualPage = () => {
 
     return (
         <div className="bg-gradient-to-b from-yellow-500 to-yellow-400 sm:pb-[3rem]">
-            {/* TEXT CONTAINER */}
-            <div className="container text-center pt-[2rem] pb-[1rem]">
+            {/* TITLE CONTAINER */}
+            <div className="container mx-auto text-center pt-[2rem] pb-[1rem]">
                 <p className="glitch inline-block">
                     <span aria-hidden="true">Casual</span>
                     Casual
                     <span aria-hidden="true">Casual</span>
                 </p>
             </div>
-            {/* SERVICES CONTAINER */}
+            {/* IMAGES CONTAINER */}
             <div className="h-full flex flex-wrap items-center justify-center gap-10 pl-5 pt-5 pr-5 pb-[7%]">
                 {/* CARD 1 */}
                 <div className="h-[40rem] w-[27rem] flex">

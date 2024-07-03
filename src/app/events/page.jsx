@@ -4,19 +4,19 @@ import ScrollButton from "@/components/scrollButton"
 import Image from "next/image";
 
 const eventsPage = () => {
-    
+
     return (
         <div className="bg-gradient-to-b from-yellow-500 to-yellow-400 sm:pb-[5rem]">
-            {/* TEXT CONTAINER */}
-            <div className="container text-center pt-[2rem] pb-[1rem]">
+            {/* TITLE CONTAINER */}
+            <div className="container mx-auto text-center pt-[2rem] pb-[1rem]">
                 <p className="glitch inline-block">
                     <span aria-hidden="true">Eventos</span>
                     Eventos
                     <span aria-hidden="true">Eventos</span>
                 </p>
             </div>
-            {/* SERVICES CONTAINER */}
-            <div className="h-full flex flex-wrap items-center justify-center gap-10 pl-5 pt-5 pr-5 pb-[5%]">
+            {/* IMAGES CONTAINER */}
+            <div className="h-full flex flex-wrap items-center justify-center gap-10 lg:gap-[7rem] pl-5 pt-5 pr-5 pb-[5%]">
                 {/* CARD 1 */}
                 <div className="h-[40rem] w-[27rem] flex">
                     <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/iglesia.jpg" alt="Iglesia" className="h-full w-auto object-contain mx-auto" priority width={300} height={300} responsive="true" />
