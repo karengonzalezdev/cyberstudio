@@ -26,7 +26,7 @@ const Homepage = () => {
         </div>
         {/* IMAGE CONTAINER */}
         <div className="h-2/3 lg:h-full sm:w-1/3 overflow-hidden sm:m-auto">
-          <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/madmax.jpg" alt="Principal Image" className="h-full w-auto object-contain mx-auto" width={300} height={300} responsive="true" />
+          <Image src="https://raw.githubusercontent.com/karengonzalezdev/Images/main/cyberstudio/madmax.jpg" alt="Principal Image" className="h-full w-auto object-contain mx-auto" width={300} height={300} responsive="true" />
         </div>
       </div>
       {/* LINE */}
@@ -36,7 +36,7 @@ const Homepage = () => {
       {/* BANNER */}
       <div className="flex items-center justify-center p-5 pt-[2.5rem] sm:pt-5">
         <div className="h-[15rem] sm:h-[20rem] md:h-[25rem] lg:h-[30rem] w-[25rem] sm:w-[30rem] md:w-[40rem] lg:w-[50rem] flex items-center justify-center hover:scale-105 hover:shadow-2xl transition-all">
-          <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/cosplay.jpg" alt="Banner" width={800} height={300} priority className="h-full w-full object-cover" />
+          <Image src="https://raw.githubusercontent.com/karengonzalezdev/Images/main/cyberstudio/cosplay.jpg" alt="Banner" width={800} height={300} priority className="h-full w-full object-cover" />
           <div className="absolute text-yellow-200 font-bold text-4xl sm:text-5xl pt-5">
             <Link href="/gallery">
               Galería de fotos
@@ -57,7 +57,7 @@ const Homepage = () => {
           </div>
           {/* IMAGE */}
           <div className="h-3/4 flex">
-            <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/cosplay3.jpg" alt="Section 1" width={400} height={400} priority />
+            <Image src="https://raw.githubusercontent.com/karengonzalezdev/Images/main/cyberstudio/cosplay3.jpg" alt="Section 1" width={400} height={400} priority />
           </div>
         </div>
         {/* CONTAINER 2*/}
@@ -71,7 +71,7 @@ const Homepage = () => {
           </div>
           {/* IMAGE */}
           <div className="h-3/4 flex">
-            <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/fiesta.jpg" alt="Section 2" width={400} height={400} priority />
+            <Image src="https://raw.githubusercontent.com/karengonzalezdev/Images/main/cyberstudio/fiesta.jpg" alt="Section 2" width={400} height={400} priority />
           </div>
         </div>
         {/* CONTAINER 3 */}
@@ -85,7 +85,7 @@ const Homepage = () => {
           </div>
           {/* IMAGE */}
           <div className="h-3/4 flex">
-            <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/tren.jpg" alt="Section 3" width={400} height={400} priority />
+            <Image src="https://raw.githubusercontent.com/karengonzalezdev/Images/main/cyberstudio/tren.jpg" alt="Section 3" width={400} height={400} priority />
           </div>
         </div>
       </div>

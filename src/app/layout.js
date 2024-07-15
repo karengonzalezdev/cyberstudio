@@ -12,7 +12,7 @@ export const metadata = {
     description: "El mejor estudio fotográfico",
     images: [
       {
-        url: "https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/HomePage.PNG",
+        url: "https://raw.githubusercontent.com/karengonzalezdev/Images/main/cyberstudio/HomePage.PNG",
         width: 800,
         heigh: 600,
         alt: "Cyberstudio"

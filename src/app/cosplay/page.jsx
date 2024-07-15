@@ -21,7 +21,7 @@ const cosplayPage = () => {
                 {/* CARD 1 */}
                 <div className="h-[100%] sm:h-[48.5rem] w-[27rem] flex flex-col items-center relative">
                     <div className="relative">
-                        <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/cosplay2.jpg" priority alt="Cosplay 2" className="h-full w-auto object-contain" width={300} height={300} responsive="true" />
+                        <Image src="https://raw.githubusercontent.com/karengonzalezdev/Images/main/cyberstudio/cosplay2.jpg" priority alt="Cosplay 2" className="h-full w-auto object-contain" width={300} height={300} responsive="true" />
                         <div className="absolute w-full flex items-center justify-center py-4">
                             <FaAngleDoubleDown className="text-violet-950 text-8xl" />
                         </div>
@@ -30,7 +30,7 @@ const cosplayPage = () => {
                 {/* CARD 2 */}
                 <div className="h-[100%] sm:h-[34rem] w-[35rem] flex flex-col items-center relative">
                     <div className="relative">
-                        <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/bladerunner.jpg" alt="Blade Runner" className="h-full w-auto object-contain mx-auto" width={300} height={300} responsive="true" />
+                        <Image src="https://raw.githubusercontent.com/karengonzalezdev/Images/main/cyberstudio/bladerunner.jpg" alt="Blade Runner" className="h-full w-auto object-contain mx-auto" width={300} height={300} responsive="true" />
                         <div className="absolute w-full flex items-center justify-center py-4">
                             <FaAngleDoubleDown className="text-violet-950 text-8xl" />
                         </div>
@@ -39,7 +39,7 @@ const cosplayPage = () => {
                 {/* CARD 3 */}
                 <div className="h-[100%] sm:h-[48.5rem] w-[27rem] flex flex-col items-center relative">
                     <div className="relative">
-                        <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/cazador.jpg" alt="Cazador" className="h-full w-auto object-contain mx-auto" width={300} height={300} responsive="true" />
+                        <Image src="https://raw.githubusercontent.com/karengonzalezdev/Images/main/cyberstudio/cazador.jpg" alt="Cazador" className="h-full w-auto object-contain mx-auto" width={300} height={300} responsive="true" />
                         <div className="absolute w-full flex items-center justify-center py-4">
                             <FaAngleDoubleDown className="text-violet-950 text-8xl" />
                         </div>
@@ -48,7 +48,7 @@ const cosplayPage = () => {
                 {/* CARD 4 */}
                 <div className="h-[100%] sm:h-[53.5rem] w-[21rem] flex flex-col items-center relative">
                     <div className="relative">
-                        <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/joi.jpg" alt="Joi" className="h-full w-auto object-contain mx-auto" width={300} height={300} responsive="true" />
+                        <Image src="https://raw.githubusercontent.com/karengonzalezdev/Images/main/cyberstudio/joi.jpg" alt="Joi" className="h-full w-auto object-contain mx-auto" width={300} height={300} responsive="true" />
                         <div className="absolute w-full flex items-center justify-center py-4">
                             <FaAngleDoubleDown className="text-violet-950 text-8xl" />
                         </div>
@@ -57,7 +57,7 @@ const cosplayPage = () => {
                 {/* CARD 5 */}
                 <div className="h-[100%] sm:h-[28rem] w-[35rem] flex flex-col items-center relative">
                     <div className="relative">
-                        <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/cosplay.jpg" alt="Cosplay" className="h-full w-auto object-contain mx-auto" width={300} height={300} responsive="true" />
+                        <Image src="https://raw.githubusercontent.com/karengonzalezdev/Images/main/cyberstudio/cosplay.jpg" alt="Cosplay" className="h-full w-auto object-contain mx-auto" width={300} height={300} responsive="true" />
                         <div className="absolute w-full flex items-center justify-center py-4">
                             <FaAngleDoubleDown className="text-violet-950 text-8xl" />
                         </div>
@@ -66,7 +66,7 @@ const cosplayPage = () => {
                 {/* CARD 6 */}
                 <div className="h-[100%] sm:h-[49rem] w-[26rem] flex flex-col items-center relative">
                     <div className="relative">
-                        <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/cosplay3.jpg" alt="Cosplay 3" className="h-full w-auto object-contain mx-auto" width={300} height={300} responsive="true" />
+                        <Image src="https://raw.githubusercontent.com/karengonzalezdev/Images/main/cyberstudio/cosplay3.jpg" alt="Cosplay 3" className="h-full w-auto object-contain mx-auto" width={300} height={300} responsive="true" />
                         <div className="absolute w-full flex items-center justify-center py-4">
                             <FaAngleDoubleDown className="text-violet-950 text-8xl" />
                         </div>
@@ -75,7 +75,7 @@ const cosplayPage = () => {
                 {/* CARD 7 */}
                 <div className="h-[100%] sm:h-[26rem] w-[35rem] flex flex-col items-center relative">
                     <div className="relative">
-                        <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/agentek.jpg" alt="Agente K" className="w-full object-contain mt-0" width={300} height={300} responsive="true" />
+                        <Image src="https://raw.githubusercontent.com/karengonzalezdev/Images/main/cyberstudio/agentek.jpg" alt="Agente K" className="w-full object-contain mt-0" width={300} height={300} responsive="true" />
                         <div className="absolute w-full flex items-center justify-center py-4">
                             <FaAngleDoubleDown className="text-violet-950 text-8xl" />
                         </div>

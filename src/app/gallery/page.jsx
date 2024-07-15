@@ -9,7 +9,7 @@ const GalleryPage = () => {
             <div className="h-full w-full flex lg:w-1/2 pt-10 lg:pt-6 pb-10">
                 <div className="h-[28rem] sm:h-[33rem] w-[19rem] sm:w-[22rem] flex justify-center m-auto hover:scale-105 hover:shadow-2xl transition-all">
                     {/* IMAGE */}
-                    <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/quinceanera.jpg" alt="Eventos" className="h-full w-auto object-contain mx-auto" width={300} height={300} responsive="true" />
+                    <Image src="https://raw.githubusercontent.com/karengonzalezdev/Images/main/cyberstudio/quinceanera.jpg" alt="Eventos" className="h-full w-auto object-contain mx-auto" width={300} height={300} responsive="true" />
                     <div className="absolute text-white text-2xl sm:text-5xl font-bold pt-5">
                         <Link href="/events">
                             Eventos
@@ -21,7 +21,7 @@ const GalleryPage = () => {
             <div className="h-full w-full lg:w-1/2 pt-1 lg:pt-[3rem] pb-9 space-y-[3rem]">
                 <div className="h-[10rem] sm:h-[15rem] w-[19rem] sm:w-[29rem] flex justify-center m-auto hover:scale-105 hover:shadow-2xl transition-all">
                     {/* IMAGE */}
-                    <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/agentek.jpg" alt="Cosplay" className="h-full w-auto object-contain mx-auto" width={300} height={300} responsive="true" />
+                    <Image src="https://raw.githubusercontent.com/karengonzalezdev/Images/main/cyberstudio/agentek.jpg" alt="Cosplay" className="h-full w-auto object-contain mx-auto" width={300} height={300} responsive="true" />
                     <div className="h-[10rem] sm:h-[15rem] absolute text-center text-white text-2xl sm:text-5xl font-bold pt-[110px] sm:pt-[160px] lg:pt-[165px]">
                         <Link href="/cosplay">
                             Cosplay
@@ -30,7 +30,7 @@ const GalleryPage = () => {
                 </div>
                 <div className="h-[10rem] sm:h-[15rem] w-[19rem] sm:w-[29rem] flex justify-center m-auto hover:scale-105 hover:shadow-2xl transition-all">
                     {/* IMAGE */}
-                    <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/casual2.jpg" alt="Casual" width={600} height={600} priority />
+                    <Image src="https://raw.githubusercontent.com/karengonzalezdev/Images/main/cyberstudio/casual2.jpg" alt="Casual" width={600} height={600} priority />
                     <div className="absolute text-center text-white text-2xl sm:text-5xl font-bold pt-5">
                         <Link href="/casual">
                             Casual

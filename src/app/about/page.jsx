@@ -9,7 +9,7 @@ const AboutPage = () => {
         {/* IMAGE */}
         <div className="h-full w-full md:w-1/2 flex">
           <div className="flex h-[22rem] md:h-[26rem] lg:h-[28rem] w-[25rem] md:w-[28rem] lg:w-[30rem] rounded-xl m-auto">
-            <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/bladerunner.jpg" alt="Blade Runner" className="h-full w-auto object-contain mx-auto" width={300} height={300} responsive="true" />
+            <Image src="https://raw.githubusercontent.com/karengonzalezdev/Images/main/cyberstudio/bladerunner.jpg" alt="Blade Runner" className="h-full w-auto object-contain mx-auto" width={300} height={300} responsive="true" />
           </div>
         </div>
         {/* SECOND CONTAINER */}
@@ -28,7 +28,7 @@ const AboutPage = () => {
       {/* BANNER */}
       <div className="flex items-center justify-center">
         <div className="h-[20rem] sm:h-[23rem] lg:h-[30rem] xl:h-[35rem] w-[30rem] sm:w-[35rem] md:w-[70rem] flex lg:pt-10 pb-10 pl-10 sm:pl-5 pr-10 sm:pr-5">
-          <Image src="https://raw.githubusercontent.com/karenfggutierrez/Images/main/cyberstudio/cosplay.jpg" alt="Banner" className="h-full w-auto object-contain mx-auto" width={300} height={300} responsive="true" />
+          <Image src="https://raw.githubusercontent.com/karengonzalezdev/Images/main/cyberstudio/cosplay.jpg" alt="Banner" className="h-full w-auto object-contain mx-auto" width={300} height={300} responsive="true" />
         </div>
       </div>
     </div>
