@@ -6,7 +6,7 @@ Photo studio
 
 ⭐ See Page ⭐ <br/>
 
-&nbsp;&nbsp;&nbsp; [Cyberstudio](https://cyberstudio.vercel.app/)
+&nbsp;&nbsp; [Cyberstudio](https://cyberstudio.vercel.app/)
 
 <br/>
 
